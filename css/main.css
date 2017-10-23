@@ -12,8 +12,6 @@ body{
 
 }
 
-
-
 .box-header{
   display: inline-block;
 }
@@ -48,4 +46,32 @@ section{
 div{
   display: inline-block;
   width: 30%;
+}
+
+span{
+  font-size: 50px;
+}
+/*se accede a la section  por intermedio de seletores*/
+body section:last-child{
+  margin: 30px 50px 0 60px;
+}
+
+img[alt="laboratoria"]{
+  width: 120px;
+}
+
+button{
+  background-color: #f9a91a;
+  padding: 7px;
+  color: white;
+  border: 0px;
+  border-radius:4px;
+  font-weight: 600;
+}
+.box-header ul li {
+  margin:0 15px;
+}
+
+span:hover,.box-header ul li:hover {
+  color: #f9a91a;
 }
